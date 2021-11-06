@@ -42,3 +42,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jwt", "~> 2.3"
 
 gem "active_model_serializers", "~> 0.10.12"
+
+
+gem 'omniauth'
+gem 'dotenv-rails'
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection"
+
+gem 'foreman'
