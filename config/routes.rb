@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   get '/auth/:provider/callback' => 'google#create'
+  
+  post '/sessions' => 'sessions#create'
+  delete '/sessions' => 'sessions#destroy'
 
   namespace :api do
     namespace :v1 do
